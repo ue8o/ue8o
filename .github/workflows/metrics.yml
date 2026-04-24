@@ -19,7 +19,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.SVG }}
           user: ${{ github.repository_owner }}
           filename: github-metrics.svg
           output_action: commit
